@@ -18,8 +18,8 @@ mysql -u <mysql-username> -p -P 3317 -h 127.0.0.1
 
 autossh kann unter /etc/systemd/system eingestellt werden \\
 ## Resize partition
-fdisk -l
-pvs 
+fdisk -l \\
+pvs \\
 pvcreate /dev/sdc
 vgs
 vgextend VG_INT /dev/sdc
