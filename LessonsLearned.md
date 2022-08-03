@@ -1,5 +1,3 @@
-mit $> exiftool <file>   lässt sich der Dateityp einer unbekannten Datei finden
-
 # Linux
 
 mit $> exiftool <file>   lässt sich der Dateityp einer unbekannten Datei finden
@@ -8,10 +6,10 @@ mit $> exiftool <file>   lässt sich der Dateityp einer unbekannten Datei finden
 
 ssh-keygen -t rsa -b 4096 -C "username"
 
-##Fingerprint auf dem Zielsystem erzeugen
+## Fingerprint auf dem Zielsystem erzeugen
 
 ssh-keygen -l -E md5 -f <(ssh-keyscan localhost 2>/dev/null)
-##ssh-Tunnel aufbauen - autossl
+## ssh-Tunnel aufbauen - autossl
 
 ssh -i /root/.ssh/<folder> -N -L 3317:<IP Tunnel-Server>:3306 <username>@<Ziel-IP> \\ 
 mysql -u <mysql-username> -p -P 3317 -h 127.0.0.1
@@ -87,11 +85,11 @@ route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.0.5
                 SetHandler "proxy:unix:/run/php/php7.4-fpm.sock|fcgi://localhost"
         </FilesMatch> 
         
-## erlaube nur bestimme Abfrage-Methoden
+## Erlaube nur bestimme Abfrage-Methoden
 	Header set Access-Control-Allow-Methods "POST, DELETE, OPTIONS" 
                 ProxyPass https://dev.mv.app.medi.de/api/eshop/patient 
 		$> a2enmod allowmethods
-## colorscheme im vim-Editor ändern
+## Colorscheme im vim-Editor ändern
 echo "colorscheme desert" >> /root/.vimrc
 
 ## TSM-Mobaxterm
@@ -106,7 +104,7 @@ ss -ltn
 echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
 ## Eintrag in IPtables
 iptables -A INPUT -s <IP>/32 -d 217.145.101.37/32 -i eth0 -p tcp -m tcp --dport 3306 -m state --state NEW -j ACCEPT
-##Port-Forwarding
+## Port-Forwarding
 Port forwarding also called “port mapping” commonly refers to the network address translator gateway. 
 changing the destination address and/or port of the packet to reach a host within a masqueraded, typically private, network. 
 
@@ -148,7 +146,7 @@ netstat -a | grep ESTABLISHED
 ## Mehrere Fenster pro Terminal
  tmux 
  control + b , dann oder \% oder \grqq
-##Teste Mail-Verbindung
+## Teste Mail-Verbindung
 telnet mail.ploetner-it.de 25 
 Trying 89.110.147.184... 
 Connected to mail.ploetner-it.de. 
@@ -172,7 +170,7 @@ apt-cache show exim
 
 ## wer braucht am meisten Speicher?
 ncdu
-##Wechsle php-Version
+## Wechsle php-Version
  update-alternatives --set php /usr/bin/php7.4
  
 # IT-Security
