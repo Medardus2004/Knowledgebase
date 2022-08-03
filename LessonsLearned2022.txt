@@ -1,2 +1,0 @@
-mit $> exiftool <file>   lässt sich der Dateityp einer unbekannten Datei finden
-
