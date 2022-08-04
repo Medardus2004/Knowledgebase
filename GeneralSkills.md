@@ -58,31 +58,7 @@ builds\_to\_clear.find\_each do |build|
 	
   build.erase\_erasable\_artifacts!
 
-### Erzeuge htaccess
-	
-$> htpasswd -c -B .htusers someuser
-	
-*apache-config*
-	
- <Location /api/bi/ >
-	
-                Order deny,allow 
-	
-                Allow from all 
-	
-                AuthType Basic 
-	
-                AuthName "Password required"
-	
-                AuthUserFile /var/.htpasswd.d/.htusers  
-	
-                <RequireAny> 
-	
-                        Require valid-user 
-	
-                </RequireAny> 
-	
-        </Location> 
+
 ### Memory Limit von php erhöhen
 	
 /etc/php/7.2/fpm/php.ini
@@ -116,20 +92,8 @@ $> find . -type f -exec grep iwas {} -ls \;
 $> openssl x509 -in cert.crt -noout -text
 ### Route anlegen
 $> route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.0.5
-### Apache in php benutzen
- <FilesMatch \.php\$>
-	
-                SetHandler "proxy:unix:/run/php/php7.4-fpm.sock|fcgi://localhost"
-	
-        </FilesMatch> 
-        
-### Erlaube nur bestimme Abfrage-Methoden
-	Header set Access-Control-Allow-Methods "POST, DELETE, OPTIONS" 
-	
-                ProxyPass https://dev.mv.app.medi.de/api/eshop/patient 
-	
-		$> a2enmod allowmethods
-	
+
+
 ### Colorscheme im vim-Editor ändern
 $> echo "colorscheme desert" >> /root/.vimrc
 
@@ -245,33 +209,87 @@ $> apt-cache show exim
 $> ncdu
 ### Wechsle php-Version
 $>  update-alternatives --set php /usr/bin/php7.4
- 
-# IT-Security
-### Herausfinden ob man gehackt wurde
-commands www  and  who  may not show users logged from pseudo terminals like Xfce terminal or MATE terminal. 
-	
-Was der user gemacht hat steht in /home/user/.bash\_history 
-	
-$> lsof  -p 
-	
-$> netstat -la 
-	
-$> iftop -i <interface> 
-	
-$> chkrootkit
 
-# Azure
-### Cloudidentitäten 
-Diese Benutzer existieren nur in Azure AD. Dabei kann es sich z. B. um Administratorkonten oder von Ihnen selbst verwaltete Benutzer handeln. Cloudidentitäten können sich in Azure Active Directory oder einer externen Azure Active Directory-Instanz befinden, wenn der Benutzer in einer anderen Azure AD-Instanz definiert ist. Diese Konten werden gelöscht, wenn sie aus dem primären Verzeichnis entfernt werden. 
-### Mit dem Verzeichnis synchronisierte Identitäten
-Diese Benutzer befinden sich in einem lokalen Active Directory. Sie gelangen über eine Synchronisierung mit Azure AD Connect zu Azure. Ihre Quelle lautet Windows Server AD.
-### Gastbenutzer
-Diese Benutzer befinden sich außerhalb von Azure. Dabei kann es sich z. B. um Konten anderer Cloudanbieter oder um Microsoft-Konten wie etwa Xbox Live handeln. Ihre Quelle lautet Eingeladener Benutzer. Diese Art von Konto eignet sich für externe Anbieter oder Auftragnehmer, die Zugriff auf Ihre Azure-Ressourcen benötigen. Sobald deren Mitwirkung nicht mehr erforderlich ist, können Sie das Konto und den gesamten Zugriff entfernen.
+# Apache
+	
+### Erzeuge htaccess
+	
+$> htpasswd -c -B .htusers someuser
+	
+*apache-config*
+	
+ <Location /api/bi/ >
+	
+                Order deny,allow 
+	
+                Allow from all 
+	
+                AuthType Basic 
+	
+                AuthName "Password required"
+	
+                AuthUserFile /var/.htpasswd.d/.htusers  
+	
+                <RequireAny> 
+	
+                        Require valid-user 
+	
+                </RequireAny> 
+	
+        </Location> 
+	
+### Php benutzen
+ <FilesMatch \.php\$>
+	
+                SetHandler "proxy:unix:/run/php/php7.4-fpm.sock|fcgi://localhost"
+	
+        </FilesMatch> 
+	        
+### Erlaube nur bestimme Abfrage-Methoden
+	Header set Access-Control-Allow-Methods "POST, DELETE, OPTIONS" 
+	
+                ProxyPass https://dev.mv.app.medi.de/api/eshop/patient 
+	
+		$> a2enmod allowmethods
+	
+### php7.4 via vhost zur Verfügung stellen
 
-### Sicherheitsgruppen
-Sicherheitsgruppen werden zum Verwalten des Mitglieder- und Computerzugriffs auf freigegebene Ressourcen für eine Benutzergruppe verwendet. Beispielsweise können Sie eine Sicherheitsgruppe für eine bestimmte Sicherheitsrichtlinie erstellen. Auf diese Weise können Sie allen Mitgliedern gleichzeitig mehrere Berechtigungen erteilen, anstatt diese jedem Mitglied einzeln hinzufügen zu müssen. Für diese Option ist die Rolle eines Azure AD-Administrators erforderlich.
-### Microsoft 365-Gruppen
-Microsoft 365-Gruppen bieten eine Möglichkeit für die Zusammenarbeit, indem Mitgliedern beispielsweise der Zugriff auf freigegebene Postfächer, Kalender, Dateien und SharePoint-Websites gewährt wird. Sie können Personen außerhalb Ihrer Organisation Zugriff auf die Gruppe gewähren. Sowohl Benutzer als auch Administratoren können Microsoft 365-Gruppen verwenden.
+wget https://mirrors.edge.kernel.org/ubuntu/pool/multiverse/liba/libapache-mod-fastcgi/libapache2-mod-fastcgi_2.4.7~0910052141-1.2_amd64.deb
+	
+dpkg -i libapache2-mod-fastcgi_2.4.7~0910052141-1.2_amd64.deb
+	
+a2enmod fastcgi actions
+	
+apt -y install php7.4-fpm php7.4-bcmath php7.4-curl php7.4-gd php7.4-mbstring php7.4-mysql php7.4-xml php7.4-zip
+	
+vi example.conf
 
-### App Insights
-Application Insights is a feature of Azure Monitor that provides extensible application performance management (APM) and monitoring for live web apps. Developers and DevOps professionals can use Application Insights to
+<IfModule mod_fastcgi.c>
+
+       AddHandler php74-fcgi-stage.medi-brandwebsite.wtf .php
+	
+       Action php74-fcgi-stage.medi-brandwebsite.wtf /php74-fcgi-stage.medi-brandwebsite.wtf
+	
+       Alias /php74-fcgi-stage.medi-brandwebsite.wtf /usr/lib/cgi-bin/php74-fcgi-stage.medi-brandwebsite.wtf
+	
+       FastCgiExternalServer /usr/lib/cgi-bin/php74-fcgi-stage.medi-brandwebsite.wtf -socket /run/php/php7.4-fpm.sock -idle-timeout 1800 -pass-header Authorization
+	
+       <Directory "/usr/lib/cgi-bin">
+	
+               Require all granted
+	
+       </Directory>
+	
+</IfModule>
+
+*Innerhalb VirtualHost*
+  
+	<IfModule mod_fastcgi.c>
+	
+               <FilesMatch ".+\.ph(p[345]?|t|tml)$">
+	
+                       SetHandler php74-fcgi-stage.medi-brandwebsite.wtf
+	
+               </FilesMatch>
+	
+       </IfModule>
