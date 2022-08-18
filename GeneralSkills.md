@@ -108,6 +108,14 @@ $> ./dsmj oder ./dsmc
 ### Zeige offene Ports
 $> ss -ltn 
 
+### Iptables zeitweise aller erlauben
+iptables-save > /root/current.ipt
+iptables -P INPUT ACCEPT; iptables -P OUTPUT ACCEPT
+iptables -F INPUT; iptables -F OUTPUT
+ping -c 3 google.com
+iptables-restore < /root/current.ipt
+rm -f /root/current.ipt
+
 ### Neuen Nameserver auf Server hinterlegen
 $> echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
 ### Eintrag in IPtables
