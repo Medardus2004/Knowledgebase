@@ -29,3 +29,25 @@ There are two syntaxes assembly is normally written in; AT&T and Intel
 We have tools such as Ghidra that will take compiled assembly code and give us a view of what it thinks the C code that the code was compiled from looks like.
 
 In x64 there is the rax, eax, ax, and al register. The rax register points to the full 8. The eax register is just the lower four bytes of the rax register. The ax register is the last 2 bytes of the rax register. Lastly the al register is the last byte of the rax register.
+
+#### Übersicht der Comands
+
+https://www.utd.hs-rm.de/infobuch2/buch_webseite/kap03/assemblerbefehle.pdf
+
+### Useful tools
+#### ghidra 
+Gidra will take compiled assembly code and give us a view of what it thinks the C code that the code was compiled from looks like.
+
+#### objdumb
+To view disassembly machine code into assembly code, you can use something like objdump
+
+&>     objdump -D hello_world -M intel | less
+
+#### gdb
+gdb is a debugger (specifically the gnu debugger). Gef is an a gdb wrapper, designed to give us some extended features
+
+$> gdb ./hello-owrld 
+- 'next' - which will take you through one line of code, but will step over function calls such as puts.
+- 'step' - which will take you through one line of code, but will step into function calls
+- 'stepi' - whch will take you through one instruction at a time, stepping into function calls
+
