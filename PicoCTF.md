@@ -51,3 +51,12 @@ $> gdb ./hello-owrld
 - 'step' - which will take you through one line of code, but will step into function calls
 - 'stepi' - whch will take you through one instruction at a time, stepping into function calls
 
+
+For Example, if we can see that the register esp holds the value 0xffffd0d0, which is a pointer. Let's see what it points to:
+
+gef➤  x/a 0xffffd0d0
+0xffffd0d0:	0x80484b0
+gef➤  x/10c 0x80484b0
+0x80484b0:	0x68	0x65	0x6c	0x6c	0x6f	0x20	0x77	0x6f
+0x80484b8:	0x72	0x6c
+gef➤  x/s 0x80484b0
