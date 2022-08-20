@@ -55,8 +55,75 @@ $> gdb ./hello-owrld
 For Example, if we can see that the register esp holds the value 0xffffd0d0, which is a pointer. Let's see what it points to:
 
 gef➤  x/a 0xffffd0d0
+
 0xffffd0d0:	0x80484b0
+
 gef➤  x/10c 0x80484b0
+
 0x80484b0:	0x68	0x65	0x6c	0x6c	0x6f	0x20	0x77	0x6f
+
 0x80484b8:	0x72	0x6c
+
 gef➤  x/s 0x80484b0
+
+0x80484b0:	"hello world!"
+
+let's view the contents of all of the registers:
+
+gef➤  info registers
+
+Now let's view the stack frame:
+
+gef➤  info frame
+
+Now let's view the disassembly for the main function:
+
+gef➤  disass main
+
+Let's say we wanted to change the contents of what will be printed. Importantly, in many programs your ability to do this is dependent on the size of the string you are trying to replace. If you overwrite it with something that is too large, you run the risk of overwriting other memory and breaking the program. There are plenty of workarounds but this is rarely applicable from a bin-ex perspective.
+
+
+gef➤  set {char [12]} 0x080484b0 = "hello venus"
+
+gef➤  x/s 0x080484b0
+
+0x80484b0:	"hello venus"
+
+gef➤  nexti
+
+Now let's say we wanted to change the value stored at the memory address 0x08048451 to 0xfacade:
+
+gef➤  x/g 0x08048451
+
+0x8048451 <__libc_csu_init+33>:	0xff08838d
+
+gef➤  set *0x08048451 = 0xfacade
+
+gef➤  x/g 0x08048451
+
+0x8048451 <__libc_csu_init+33>:	0xfacade
+
+Let's say we wanted to jump directly to an instruction like 0x08048451, and skip all instructions in between:
+
+
+gef➤  j *0x08048451
+
+Continuing at 0x0x08048451.
+
+hello venus
+
+#### pwntools intro
+
+Pwntools is a python ctf library designed for rapid exploit development. It essentially help us write exploits quickly, and has a lot of useful functionality behind it.
+
+$> python3
+
+>> from pwn import *
+
+>> target = remote("github.com", 9000)
+
+>> target = process("./challenge")
+
+>> gdb.attach(target)   //Attaches the gdb debugger
+
+http://docs.pwntools.com/en/stable/
