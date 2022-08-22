@@ -95,7 +95,7 @@ $> route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.0.5
 
 
 ### Colorscheme im vim-Editor ändern
-$> echo "colorscheme desert" >> /root/.vimrc
+$> echo "colorscheme industry" >> /root/.vimrc
 
 ### TSM-Mobaxterm
 starte mobaexterm und klicke auf "X server" 
