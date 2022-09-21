@@ -294,6 +294,10 @@ vi example.conf
 </IfModule>
 
 *Innerhalb VirtualHost*
+
+
+
+	
   
 	<IfModule mod_fastcgi.c>
 	
@@ -304,3 +308,24 @@ vi example.conf
                </FilesMatch>
 	
        </IfModule>
+	
+	
+	
+	### Wichtige Header 
+
+*Security.conf*
+	
+
+Setting this header will prevent MSIE from interpreting files as something else than declared by the content type in the HTTP headers. Requires mod_headers to be enabled.
+	
+Header set X-Content-Type-Options: "nosniff"
+
+Setting this header will prevent other sites from embedding pages from this site as frames. This defends against clickjacking attacks.Requires mod_headers to be enabled.
+
+Header set X-Frame-Options: "sameorigin"
+
+
+target website is being served from HTTPS only
+
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
