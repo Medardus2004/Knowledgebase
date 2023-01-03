@@ -118,6 +118,10 @@ rm -f /root/current.ipt
 
 ### Neuen Nameserver auf Server hinterlegen
 $> echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+	
+### Standardverzeichnis Windows für Comandlets
+	C:\Users\doerflet\AppData\Local\Microsoft\WindowsApps
+	
 ### Eintrag in IPtables
 $> iptables -A INPUT -s <IP>/32 -d 217.145.101.37/32 -i eth0 -p tcp -m tcp --dport 3306 -m state --state NEW -j ACCEPT
 ### Port-Forwarding
