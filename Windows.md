@@ -65,3 +65,45 @@ Get-Process | ConvertTo-HTML > PSprocess.html
 
 ### Get-History
 You can use the Up-Down arrow key to scroll through the recently executed commands in PowerShell. However, to view a list of all the recently executed commands in your current session at once, you can use the Get-History cmdlet.
+
+## Mosu useful comands in comandline
+
+### cipher
+Deleting files on a mechanical hard drive doesn't really delete them at all. Instead, it marks the files as no longer accessible and the space they took up as free. The files remain recoverable until the system overwrites them with new data, which can take some time.
+
+The cipher command, however, lets you wipe a directory on an NTFS-formatted volume by writing random data to it. To wipe your C drive, for example, you'd use the cipher /w:d command, which will wipe free space on the drive. The command does not overwrite undeleted data, so you will not wipe out the files you need by running this command.
+
+When you run the cipher command by itself, it returns the encryption state of the current directory and the files it contains. Use cipher /e:<filename> to encrypt a file, cipher /c:<filename> to retrieve information about encrypted files, and cipher /d:<filename> to decrypt the selected file. Most of these commands are redundant with the Windows encryption tool BitLocker.
+ 
+### File Compare
+You can use this command to identify differences in text between two files. It's particularly useful for writers and programmers trying to find small changes between two versions of a file. Simply type fc and then the directory path and file name of the two files you want to compare.
+
+You can also extend the command in several ways. Typing /b compares only binary output, /c disregards the case of text in the comparison, and /l only compares ASCII text.
+
+So, for example, you could use the following:
+
+fc /l "C:\Program Files (x86)\example1.doc" "C:\Program Files (x86)\example2.doc"
+ 
+### netstat
+ Entering the command netstat -an will provide you with a list of currently open ports and related IP addresses. This command will also tell you what state the port is in; listening, established, or closed.
+
+This is a great command for when you're trying to troubleshoot devices connected to your PC or when you fear a Trojan infected your system and you're trying to locate a malicious connection.
+ 
+ ### Pathping 
+ This is a more advanced version of ping that's useful if there are multiple routers between your PC and the device you're testing. Like ping, you use this command by typing pathping followed by the IP address, but unlike ping, pathping also relays some information about the route the test packets take.
+ 
+### System File Checker
+ is an automatic scan and repair tool that focuses on Windows system files.
+
+You will need to run the command prompt with administrator privileges and enter the command sfc /scannow. If SFC finds any corrupt or missing files, it will automatically replace them using cached copies kept by Windows for this purpose alone. The command can require a half-hour to run on older notebooks.
+ 
+### Schtasks
+ is your command prompt access to the Task Scheduler, one of many underrated Windows administrative tools. While you can use the GUI to manage your scheduled tasks, the command prompt lets you copy&paste complex commands to set up multiple similar tasks without having to click through various options. Ultimately, it's much easier to use, once you've committed key parameters to memory.
+ 
+ ### Format
+ 
+ When you need to format a drive, you can either use the Windows File Explorer GUI or you can turn to the command prompt. You'll need Administrator rights to use this command. Be sure you specify the volume you want to format, followed by the desired parameters.
+
+The command below will quick-format the D drive with the exFAT file system, with an allocation unit size of 2048 bytes, and rename the volume to "label" (without the quotes).
+
+format D: /Q /FS:exFAT /A:2048 /V:label
