@@ -66,7 +66,7 @@ Get-Process | ConvertTo-HTML > PSprocess.html
 ### Get-History
 You can use the Up-Down arrow key to scroll through the recently executed commands in PowerShell. However, to view a list of all the recently executed commands in your current session at once, you can use the Get-History cmdlet.
 
-## Mosu useful comands in comandline
+## Most useful comands in comandline
 
 ### cipher
 Deleting files on a mechanical hard drive doesn't really delete them at all. Instead, it marks the files as no longer accessible and the space they took up as free. The files remain recoverable until the system overwrites them with new data, which can take some time.
@@ -107,3 +107,8 @@ You will need to run the command prompt with administrator privileges and enter 
 The command below will quick-format the D drive with the exFAT file system, with an allocation unit size of 2048 bytes, and rename the volume to "label" (without the quotes).
 
 format D: /Q /FS:exFAT /A:2048 /V:label
+
+ ### Systeminfo
+ This command will give you a detailed configuration overview of your computer. The list covers your operating system and hardware. For example, you can look up the original Windows installation date, the last boot time, your BIOS version, total and available memory, installed hotfixes, network card configurations, and more.
+
+Use systeminfo /s followed by the hostname of a computer on your local network, to remotely grab the information for that system. This may require additional syntax elements for the domain, user name, and password, like this:
