@@ -4,5 +4,4 @@ Legendre-Transformation gehört zu den Berührungstransformationen und dient als
 
 Legendre Transformation ermöglicht den Wechsel von Lagrange- zur Hamiltonmechanik.
 
-
 Die Zustandsgleichungen sind im Prinzip die ersten Ableitungen der Fundamentalgleichung.
