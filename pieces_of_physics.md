@@ -11,3 +11,15 @@ Bei Q und W schreibt man jeweils delta  statt d, weil es sich nicht wie bei der 
 Die Boltzmann-Konstante ist ein Umrechnungsfaktor von absoluter Temperatur in Energie.
 
 Die Boltzmann-Statistik der Thermodynamik gibt die Wahrscheinlichkeit an, ein gegebenes physikalisches System in einem bestimmten Zustand anzutreffen, wenn es mit einem Wärmebad im thermischen Gleichgewicht steht. 
+
+Das Roton ist eine Anregung von suprafluiden Flüssigkeiten. Die Rotonen tragen Quanten des Drehimpulsbetrags.
+
+Das Gesetz von Boyle-Mariotte, auch Boyle-Mariottesches Gesetz oder Boyle-Mariotte-Gesetz und oft mit Boyle’sches Gesetz abgekürzt, sagt aus, dass der Druck idealer Gase bei gleichbleibender Temperatur (isotherme Zustandsänderung) und gleichbleibender Stoffmenge umgekehrt proportional zum Volumen ist. 
+
+Isentrop bezeichnet, wenn sich die Entropie S nicht ändert.
+
+# Elektrodynamik
+
+Die Dispersionsrelation (lat. dispergere ‚verteilen', ‚ausbreiten', ‚zerstreuen') beschreibt den Zusammenhang zwischen dem Ablauf eines physikalischen Prozesses (Frequenz, Energie) und den Eigenschaften der ihn beschreibenden Größen (Wellenzahl, Brechungsindex, Ausbreitungsgeschwindigkeit, Impuls).
+
+Elektrische Polarisation (oder kurz: Polarisation ) P ist eine physikalische Größe aus der Elektrodynamik, die die Stärke des elektrischen Dipolmoments in einem dielektrischen Material kennzeichnet. 
