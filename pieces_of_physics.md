@@ -18,6 +18,8 @@ Das Gesetz von Boyle-Mariotte, auch Boyle-Mariottesches Gesetz oder Boyle-Mariot
 
 Isentrop bezeichnet, wenn sich die Entropie S nicht ändert.
 
+Die Loschmidt-Konstante ist eine nach Josef Loschmidt benannte physikalische Konstante, die die Anzahl der Moleküle pro Volumen eines idealen Gases unter Normalbedingungen (T0 = 273,15 K = 0 °C) und (p0 = 101,325 kPa) angibt.
+
 # Elektrodynamik
 
 Die Dispersionsrelation (lat. dispergere ‚verteilen', ‚ausbreiten', ‚zerstreuen') beschreibt den Zusammenhang zwischen dem Ablauf eines physikalischen Prozesses (Frequenz, Energie) und den Eigenschaften der ihn beschreibenden Größen (Wellenzahl, Brechungsindex, Ausbreitungsgeschwindigkeit, Impuls).
