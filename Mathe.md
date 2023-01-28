@@ -1,5 +1,7 @@
 # Basics
 
+## Beweismethoden
+
 Der direkte Beweis stellt die einfachste Form des Beweises dar. Er beweist eine Aussage der Form A⇒B indem man A annimmt und von dort aus auf B schließt.
 
 Der indirekte Beweis (Kontraposition) stellt eine logisch äquivalente Aussage zu A⇒B dar. Dabei
