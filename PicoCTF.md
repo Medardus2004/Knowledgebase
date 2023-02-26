@@ -1,3 +1,8 @@
+# Web Exploits
+We want to leak the encryption method somehow, so we open **BurpSuite** to monitor the requests made to the site.
+
+
+
 # Binary Exploits
 
 Introduction: https://guyinatuxedo.github.io/
