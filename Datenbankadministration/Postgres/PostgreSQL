@@ -1,0 +1,18 @@
+# PostgreSQL
+
+PostgreSQL is an object-relational database management system (ORDBMS), which was developed by the PostgreSQL Global Development Group and is popular because it is powerful and open source. 
+
+## History
+
+PostgreSQL is currently the most advanced open-source database available in the world. It was started in 1986 to overcome the problems of the contemporary database system. It was created by a computer science professor named Michael Stonebraker at UCB and was originally called Postgres, as it was started as a follow-up project and a post-Ingres project.
+
+## Features
+
+Runs on all major operating systems including Linux, UNIX and Windows.
+Supports text, images, sounds, and video.
+Includes programming interfaces for C / C++, Java, Perl, Python, Ruby, Tcl and Open Database Connectivity (ODBC).
+Supports many features of SQL including some advanced features.
+A table in PostgreSQL can be set to inherit their characteristics from a “parent” table.
+To add additional functionality to PostgreSQL several extensions can be installed.
+
+
