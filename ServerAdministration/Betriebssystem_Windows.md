@@ -1,5 +1,23 @@
 # Windows 
 
+## Protokolle
+
+Microsoft Network Monitor ein wertvolles Werkzeug zum Aufzeichnen und Analysieren von Netzwerkverkehr 
+
+169.254.0.0/16-Adressenwird von Rechnern genutzt, bei denen die automatische IPv4-Konfiguration per BOOTP oder DHCP fehlgeschlagen ist.
+
+Soll der DHCP-Server also auch für andere Netzsegmente außer seinem eigenen zuständig sein, muss man in den übrigen Segementen DHCP Relay Agents installieren
+
+Auf DHCP-Servern kann ipv6 Probleme machen
+
+Vier Phasen des DHCP-Vorgangs, nämlich DISCOVER, OFFER, REQUEST, ACK
+
+IPv4 verwendet für die Ermittlung der Hardwareadresse das ARP-Protokoll (Address Resolution Protocol). IPv6 nutzt übrigens kein ARP, sondern setzt hier auf das Neighbor Discovery Protocol (NDP).
+
+In einer Active Directory-Umgebung wird (sofern alle beteiligten Systeme neuer als NT4 sind) Kerberos als Authentifizierungsprotokoll verwendet. Durch Kerberos wird verhindert, dass jede Ressource die zugreifenden Clients selbst mehr oder weniger umständlich authentifizieren muss.
+
+
+
 ## Most Useful Powershell comands
 
 ### Get-Help
