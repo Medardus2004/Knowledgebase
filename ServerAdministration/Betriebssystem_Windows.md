@@ -2,19 +2,33 @@
 
 ## Protokolle
 
-Microsoft Network Monitor ein wertvolles Werkzeug zum Aufzeichnen und Analysieren von Netzwerkverkehr 
+**Microsoft Network Monitor** ein wertvolles Werkzeug zum Aufzeichnen und Analysieren von Netzwerkverkehr 
 
-169.254.0.0/16-Adressenwird von Rechnern genutzt, bei denen die automatische IPv4-Konfiguration per BOOTP oder DHCP fehlgeschlagen ist.
+**169.254.0.0/16-**Adressen wird von Rechnern genutzt, bei denen die automatische IPv4-Konfiguration per BOOTP oder DHCP fehlgeschlagen ist.
 
-Soll der DHCP-Server also auch für andere Netzsegmente außer seinem eigenen zuständig sein, muss man in den übrigen Segementen DHCP Relay Agents installieren
+Soll der DHCP-Server auch für andere Netzsegmente außer seinem eigenen zuständig sein, muss man in den übrigen Segementen **DHCP Relay Agents** installieren
 
-Auf DHCP-Servern kann ipv6 Probleme machen
+Auf **DHCP**-Servern kann **ipv6 Probleme** machen
 
-Vier Phasen des DHCP-Vorgangs, nämlich DISCOVER, OFFER, REQUEST, ACK
+Vier Phasen des DHCP-Vorgangs, nämlich **DISCOVER, OFFER, REQUEST, ACK**
 
-IPv4 verwendet für die Ermittlung der Hardwareadresse das ARP-Protokoll (Address Resolution Protocol). IPv6 nutzt übrigens kein ARP, sondern setzt hier auf das Neighbor Discovery Protocol (NDP).
+IPv4 verwendet für die Ermittlung der Hardwareadresse das **ARP-Protokoll** (Address Resolution Protocol). IPv6 nutzt übrigens kein ARP, sondern setzt hier auf das **Neighbor Discovery Protocol** (NDP).
 
-In einer Active Directory-Umgebung wird (sofern alle beteiligten Systeme neuer als NT4 sind) Kerberos als Authentifizierungsprotokoll verwendet. Durch Kerberos wird verhindert, dass jede Ressource die zugreifenden Clients selbst mehr oder weniger umständlich authentifizieren muss.
+In einer Active Directory-Umgebung wird (sofern alle beteiligten Systeme neuer als NT4 sind) **Kerberos** als Authentifizierungsprotokoll verwendet. Durch Kerberos wird verhindert, dass jede Ressource die zugreifenden Clients selbst mehr oder weniger umständlich authentifizieren muss.
+
+**Kerbtray.exe** zeigt die zwischengespeicherten Kerberos-Tickets im aktuellen Benutzerkontext.
+SPNs können mit dem Kommandozeilenwerkzeug **setspn.exe** abgefragt, gesetzt und gelöscht werden.
+
+
+## .NET
+
+DLL-Datei besteht  aus einer Art Zwischencode, der Intermediate Language (IL).
+
+In der Common Language Runtime ermittelt der Class Loader, welche Assemblys zur Ausführung zusätzlich benötigt werden. Diese finden sich zumeist in DLL-Dateien.
+
+Als nächstes erstellt der JIT-Compiler aus der Intermediate Language »echten« ausführbaren Code. Der JIT-Compiler benötigt für diese Kompilierung nur wenige Augenblicke.
+
+Für jede einzelne Assembly (das kann eine .exe- oder .dll-Datei sein) kann individuell definiert werden, auf welche Ressourcen diese zugreifen kann.
 
 
 
