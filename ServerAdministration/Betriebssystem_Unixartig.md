@@ -222,5 +222,9 @@ $> apt-cache show exim
 
 ### wer braucht am meisten Speicher?
 $> ncdu
+
 ### Wechsle php-Version
 $>  update-alternatives --set php /usr/bin/php7.4
+
+### Welches mail program is installed/sending emails?
+$> dpkg -S `which sendmail`
