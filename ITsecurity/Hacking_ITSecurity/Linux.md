@@ -22,3 +22,16 @@ https://usn.ubuntu.com/usn
 https://people.canonical.com/~ubuntu-security/cve/main.html
 
 Stärkeres Passwort und Verstärkung htaccess
+
+Wenn ein Packet verdächtig erscheint, kann 
+$> dpkg -S /path/to/file 
+das package feststellen
+
+Alle aktiven Verbindungen auflisten
+$> netstat -tupen
+
+Informationen über Programm das auf Port 143 läuft
+$> lsof -RPni :143
+
+Mehr Informationen über den Prozess anhand der Prozessnummer
+&> lsof -p 2065
