@@ -33,5 +33,8 @@ $> netstat -tupen
 Informationen über Programm das auf Port 143 läuft
 $> lsof -RPni :143
 
+
+
+
 Mehr Informationen über den Prozess anhand der Prozessnummer
 &> lsof -p 2065
