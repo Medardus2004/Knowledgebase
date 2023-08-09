@@ -34,5 +34,27 @@ Durch DT kann der Angreifer nun versuchen, diesen SC im aufzurufen
 
 **Blind-SQL-Injection** durch trial and error kann aus eine Datenbank ausgelesen werden, ob z.B: ein User exisiert (boolean). Auch kann man aus der Antwortzeit vermuten, ob eine Datenbankabfrage true oder false zurückgibt. Man kann so ganze Passwörter erraten
 
+**Advanced SQL-Injection: Out of Band Data Exfiltration**: versuchen Daten über einen Out-of-Band Kanal zu extrahieren
+
+**Advanced SQL-Injection: Error based SQL-Injection**: wenn eine SQL-Injection in der Lage ist, Fehler zu erzeugen, dann kann man damit auch Daten auslesen.
+
+**Comand Injection** Ein Angreifer kann versuchen, die Funktion in einem Eingabefeld zu. Comand Injection Angriffe lassen sich durch Commix leicht automatisieren.
+
+**Click Jacking** ist eine Technik, in der 2 Webseiten überlagert dargestellt werden.
+
+**XML-Angriffe**, zB XML-Bomben. Lassen sich mit XPath Bruter automatisieren. https://github.com/lanmaster53/recon-ng
+
+**Server Side Request Forgery** bringt ein Angreifer ein System dazu, Requests an andere Systeme abzusetzen.
+
+**Angular Template Injection** manche Versionen von Angular sind anfällig für Template-Injection Attacken. Mehr dazu https://gist.github.com/jeremybuis
+
+**Angriffe auf Objekt-Serialisierung**, unter Umständen lässt sich der Deserialisierungsvorgang so manipulieren, dass am Zielsystem injizierter Code ausgeführt wird. https://github.com/frohoff/ysoserial
+
+**Schwachstellen im CMS** Wordpress lässt sich mit wpscan untersuchen.
+https://github.com/whoot/Typo3Scan
+
+# Testmaterial
+https://vulnhub.com/
+https://www.exploit-db.com/
 
 
