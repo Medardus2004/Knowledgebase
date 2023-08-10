@@ -1,5 +1,50 @@
 # Linux
 
+## Measruing
+$>  iostat
+iostat gibt eine Reihe von Werten aus und wird typischerweise mit zwei numerischen Parametern aufgerufen:
+Beispiel: iostat 1 5
+1 -> die Werte werden jede Sekunde erneut gemessen und ausgegeben
+5 -> die Werte werden 5x ausgegeben, danach wird das Programm beendet
+
+$>  iotop
+Das Linux Monitoring-Tool iotop zeigt die aktuellen I/O Transferraten für die gerade laufenden Prozesse/Threads. Es verwendet dabei die I/O Usage Informationen des Linux Kernels (erfordert Linux Kernel Version 2.6.20 oder neuer).
+
+$>  vmstat
+Ist ein Computer zu langsam, sind die Ursachen oft nicht einfach zu ermitteln. Ist es eine zu langsame Festplatte, ist der Arbeitsspeicher zu klein oder ein überlasteter Prozessor? vmstat gibt tabellarisch Auskunft über Prozesse, Arbeitsspeicher, Auslagerung sowie Festplatten- und Prozessor-Aktivitäten. vmstat ist somit ein Hilfsmittel, um die Ursache eines Engpasses ermitteln zu können.
+
+$>  netstat
+erzeugt eine Anzeige, in der Netzwerkstatus und Protokollstatistiken aufgeführt werden
+
+$>  ss
+is used to dump socket statistics. It allows showing information similar to netstat.  It can display more TCP and  state information than other tools.
+
+$>  iptraf
+IPTraf ist ein konsolenbasiertes Netzwerk-Statistikprogramm für Linux. Es sammelt unter anderem Informationen über TCP-Verbindungen und zählt Pakete und Bytes
+
+$>  pstree, ps
+pstree steht für Process Tree. pstree stellt alle aktuell laufenden Prozesse in einer übersichtlichen Baumstruktur da.
+
+$>  w
+w zeigt Informationen über Benutzer an, die aktuell angemeldet sind
+
+$>  lsof
+steht für list open files und ist ein Hilfsprogramm, welches Informationen über geöffnete Dateien liefert. Dies hört sich im ersten Moment unspektakulär an, jedoch sollte man dabei bedenken, dass unter unixartigen Betriebssystemen, also auch (Ubuntu) Linux, alles eine Datei ist. So werden auch Blockgeräte (=Laufwerke), Netzwerkports usw. über Dateien angesprochen. D.h. lsof kann ein sehr mächtiges Tool zur Überwachung und Analyse des Systems sein.
+
+$>  top   htop
+zeigt eine dynamische Übersicht der laufenden Prozesse (siehe auch ps) sowie der belegten Systemressourcen an. Gegenüber dem Klassiker top bietet htop Prozessmanager jedoch einige Komfortfunktionen.
+
+$>  uptime
+Der Befehl uptime gibt aus, wie lange der Rechner seit dem letzten Bootvorgang läuft, wie viele Benutzer zur Zeit eingeloggt sind und die mittlere Systemauslastung der letzten Minute, 5 Minuten und 15 Minuten.
+
+$>  sar
+Sie können den folgenden Befehl ausführen, um die CPU-Auslastung 4 Mal alle 1 Sekunde zu überwachen.
+sar 1 4
+
+$>  swap
+Swapfile used
+
+
 ### Dateityp einer unbekannten Datei finden
 
 $> exiftool <file> 
@@ -228,3 +273,14 @@ $>  update-alternatives --set php /usr/bin/php7.4
 
 ### Welches mail program is installed/sending emails?
 $> dpkg -S `which sendmail`
+
+
+# Bash
+| uniq   diese pipe entfernt alle doppelten Einträge
+| sort   sortiere alphabetisch
+awk -F "/" '{print $1}' /path/to/file 
+
+# Unnützes Wissen
+zwei Syscalls: fork() kopiert einen Prozess, so dass das alte Programm in zwei Prozessen ausgeführt wird, und exec*() ersetzt in einem laufenden Prozess das alte Programm durch ein neues. Offensichtlich kann man die häufige Aufgabe des Startens eines neuen Programms in einem eigenen Prozess dadurch erreichen, dass erst ein Prozess kopiert und dann in der Kopie das neue Programm gestartet wird.
+Damit sich Programme auf diese Weise freiwillig beenden können, brauchen sie einen Syscall. Unter Unix heißt dieser Aufruf exit().
+Beim Herunterfahren des Systems wird entsprechend der Semantik beider Signale auch meist so verfahren: Zuerst wird allen Prozessen ein SIGTERM gesendet, dann einige Sekunden gewartet und schließlich allen ein SIGKILL geschickt.
