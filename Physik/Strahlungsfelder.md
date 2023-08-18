@@ -2,5 +2,7 @@ Ein **Christiansen-Filter** ist ein optisches Filter, das für eine bestimmte We
 
 Die **Chromosphäre** (griech. Farbhülle) ist die an die Photosphäre anschließende Gasschicht in der Atmosphäre der Sonne. Sie besteht überwiegend aus Wasserstoff und Helium, erstreckt sich bis etwa 2.000 Kilometer über die Photosphäre und geht dann in die Sonnenkorona über.
 
+**Augenlichtempfindlichkeit** 50 Photonen/s.
 Sonne auf dem Buch verträgt (allerdings nicht lange) bedeutet  fast 5 · 10^5 lx. Die ,zum Lesen klare Vollmondnacht erzeugt bestenfalls 1 lx. Eine 4,5V-0,2 A-Taschenlampe hat 0,7W, also maximal 40 lm.
 
+Als **Remission** bezeichnet man in der Physik die diffuse Reflexion von Wellen, insbesondere von Licht, im Gegensatz zur regulären gerichteten Reflexion, die das Reflexionsgesetz erfüllt. Häufiger wird aber in beiden Fällen von Reflexion gesprochen. Man unterscheidet dann zwischen spiegelnder und diffuser Reflexion.
