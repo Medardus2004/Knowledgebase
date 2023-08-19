@@ -16,4 +16,7 @@ Eine **Albedo** ist das Rückstrahlvermögen diffus reflektierender (aber nicht 
 
 Das **Lumen** (lateinisch für Licht, Leuchte, Glanz) ist die SI-Einheit des Lichtstroms. Es gibt also an, wie viel Licht (fachsprachlich: welche Lichtmenge) eine Lichtquelle pro Zeitspanne insgesamt abgibt.
 
-**Lichtausbeute** (lm/W)
+**Lichtausbeute** wird gemessen in (lm/W)
+
+Der Mechanismus des **Farbsehens** ist wesentlich anders als der des **Tonhörens**. Für das Ohr als Fourier-Analysator ähnelt ein 200 Hz-Ton einem 400 Hz-Ton, der als erster Oberton in jedem musikalischen 200 Hz-Ton enthalten ist. Daher bringen die höheren Oktaven nichts wesentlich Neues, und unsere Musik kommt mit 12 Tönen (und einigen Unterscheidungszeichen) aus. Anders beim Auge: Dass sich eine Periodizität durch die Hinwendung des Violett zum Rot anzudeuten scheint, liegt an der Existenz des Nebenbuckels in der Rotrezeptor-Empfindlichkeit und darf nicht so extrapoliert werden, dass danach wieder Rot-Orange, Gelb usw. kämen.
+
