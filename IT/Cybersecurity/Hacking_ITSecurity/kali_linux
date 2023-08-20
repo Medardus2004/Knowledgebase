@@ -1,3 +1,0 @@
-### Adress-Scan im lokalen Netzwerk
-$> arp-scan --interface=eth0 --localnet
-
