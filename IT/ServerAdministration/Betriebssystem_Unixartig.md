@@ -1,5 +1,40 @@
 # Linux
 
+## LPIC 101
+Die meisten
+Maschinen bieten ein Konfigurationsprogramm, das beim Einschalten der Maschine ausgeführt
+werden kann. Bis Mitte der 2000er Jahre war das Konfigurationsprogramm im BIOS (Basic
+Input/Output System) implementiert, dem Standard für Firmware, der die grundlegenden
+Konfigurationsroutinen von x86-Motherboards enthält. Ab dem Ende des ersten Jahrzehnts der
+2000er Jahre begannen Maschinen, die auf der x86-Architektur basierten, das BIOS durch eine
+neue Implementierung namens UEFI (Unified Extensible Firmware Interface) zu ersetzen. Diese
+verfügt im Gegensatz zum BIOS über Funktionen zur Identifizierung, zum Testen, zur
+Konfiguration und zu Firmware-Upgrades. Trotz der Änderung ist es nicht ungewöhnlich, das
+Konfigurationsprogramm weiterhin BIOS zu nennen, da beide Implementierungen denselben
+grundlegenden Zweck erfüllen
+
+**lspci**
+Zeigt alle Geräte an, die aktuell an den PCI-Bus (Peripheral Component Interconnect)
+angeschlossen sind. Bei PCI-Geräten handelt es sich entweder um Komponenten, die an die
+Hauptplatine angeschlossen sind (z.B. Festplatten-Controller), oder um Erweiterungskarten, die
+in einen PCI-Steckplatz eingesteckt ist (z.B. eine externe Grafikkarte).
+
+**lsusb**
+Listet USB-Geräte (Universal Serial Bus) auf, die aktuell an das System angeschlossen sind.
+Obwohl es USB-Geräte für fast jeden erdenklichen Zweck gibt, wird die USB-Schnittstelle meist
+für den Anschluss von Eingabegeräten — Tastaturen, Zeigegeräte — und
+Wechselspeichermedien verwendet.
+
+**lsmod** 
+zeigt zum Beispiel alle aktuell
+geladenen Module an
+
+Der Befehl **modprobe** dient
+sowohl dem Laden als auch dem Entladen von Kernelmodulen: Zum Entladen eines Moduls und
+seiner verwandten Module — solange diese nicht von einem laufenden Prozess benutzt
+werden — nutzen Sie den Befehl modprobe -r
+
+
 ## Measruing
 **$>  iostat**
 iostat gibt eine Reihe von Werten aus und wird typischerweise mit zwei numerischen Parametern aufgerufen:
