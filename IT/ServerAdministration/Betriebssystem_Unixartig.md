@@ -35,6 +35,29 @@ seiner verwandten Module — solange diese nicht von einem laufenden Prozess ben
 werden — nutzen Sie den Befehl modprobe -r
 
 
+### Bootvorgang
+
+Im Allgemeinen sind die Vorbereitungsschritte zum Booten eines mit BIOS ausgestatteten Systems
+folgende:
+1. Der POST-Prozess (Power-on Self-Test) wird ausgeführt, um einfache Hardwarefehler zu
+identifizieren, sobald das Gerät eingeschaltet wird.
+2. Das BIOS aktiviert die grundlegenden Komponenten zum Laden des Systems, wie
+Videoausgabe, Tastatur und Speichermedien.
+3. Das BIOS lädt die erste Stufe des Bootloaders aus dem MBR (die ersten 440 Bytes des ersten
+Geräts, wie im BIOS-Konfigurationsprogramm definiert).
+4. Die erste Stufe des Bootloaders ruft die zweite Stufe des Bootloaders auf, die für die
+Präsentation von Bootoptionen und das Laden des Kernels verantwortlich ist
+
+Wie das BIOS ist auch das **UEFI** eine Firmware, aber es kann Partitionen
+identifizieren und eine Vielzahl von Dateisystemen lesen, die sich darin befinden. UEFI ist nicht
+auf den MBR angewiesen und berücksichtigt nur die Einstellungen, die in ihrem nichtflüchtigen
+Speicher (NVRAM) gespeichert sind, der an die Hauptplatine angeschlossen ist
+
+Der Speicherbereich, in dem der Kernel seine Meldungen, einschließlich der Bootmeldungen,
+speichert, wird als Kernel-Ringpuffer bezeichnet
+
+Ohne Optionen zeigt der Befehl dmesg die aktuellen Meldungen des Kernel-Ringpuffer an
+
 ## Measruing
 **$>  iostat**
 iostat gibt eine Reihe von Werten aus und wird typischerweise mit zwei numerischen Parametern aufgerufen:
