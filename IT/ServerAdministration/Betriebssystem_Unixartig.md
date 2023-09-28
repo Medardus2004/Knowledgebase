@@ -34,6 +34,24 @@ sowohl dem Laden als auch dem Entladen von Kernelmodulen: Zum Entladen eines Mod
 seiner verwandten Module — solange diese nicht von einem laufenden Prozess benutzt
 werden — nutzen Sie den Befehl modprobe -r
 
+### Libraries
+
+**ldconfig -v** zeigt alle Libraries an.
+Diese sind unter /etc/ld.so.conf zu finden
+
+es gibt dynamische und statische libraries
+Eine statische Bibliothek wird zur Verknüpfungszeit mit dem Programm zusammengeführt.
+Eine Kopie des Bibliothekscodes wird in das Programm eingebettet und wird Teil des
+Programms haben a im Namen
+
+dynamisch so shared object
+
+libraries werden zuerst kompiliert und dann verlinkt
+
+LD_LIBRARY_PATH ist für gemeinsam genutzte Bibliotheken, was PATH für
+ausführbare Dateien ist.
+
+**ldd /usr/bin/git** zeigt alle libraries.
 
 ### Bootvorgang
 
