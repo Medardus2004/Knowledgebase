@@ -53,6 +53,21 @@ ausführbare Dateien ist.
 
 **ldd /usr/bin/git** zeigt alle libraries.
 
+### Debian-Paketverwaltung verwenden
+
+**dpkg -i PACKAGENAME** installiert ein Packet.
+
+**dpkg -r PACKAGENAME** installiert ein Packet.
+
+**dpkg -i PACKAGENAME** Informationen über ein Packet.
+
+**dpkg-query -S /usr/bin/unrar-nonfree** Herausfinden, welches Paket eine bestimmte Datei besitzt.
+
+Um eine Liste aller auf dem System installierten Pakete zu erhalten, benutzen Sie die Option
+--get-selections, wie in dpkg --get-selections
+
+
+
 ### Bootvorgang
 
 Im Allgemeinen sind die Vorbereitungsschritte zum Booten eines mit BIOS ausgestatteten Systems
