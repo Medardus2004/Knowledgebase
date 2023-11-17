@@ -18,3 +18,15 @@ Entfernen unsicherer Protokolle z.B.: **Samba**
 Eine Active Directory kann mit **Microsoft Advanced Threat Analytics** effektiv überwacht werden.
 
 Security Compliance Policy verwaltet lokale Richtlinien
+
+Benutzer und Gruppen werden in der SAM-Datenbank angelegt in C:/Windows/System32/config
+Cain & Abel kann diese DB entschlüsseln
+Administrator-Konto ist RID-500, es wird nicht üblicherweise von Benutzern verwendet.
+
+Lokale Gruppenverwaltung gpedit.msc
+Beschreibung der einzelnen Gruppen unter SYSTEM - LOKALE BENUTZER UND GRUPPEN - BENUTZER
+Beschreibung aller Privilegien
+https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment
+Was ist mit LDAP?
+Windows Systeme bieten die Option an, Hyper-V Systeme direkt als zusätzliches Laufwerk bereitzustellen
+
