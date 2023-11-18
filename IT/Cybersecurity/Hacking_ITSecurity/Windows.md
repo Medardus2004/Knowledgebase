@@ -30,3 +30,13 @@ https://docs.microsoft.com/en-us/windows/security/threat-protection/security-pol
 Was ist mit LDAP?
 Windows Systeme bieten die Option an, Hyper-V Systeme direkt als zusätzliches Laufwerk bereitzustellen
 
+Unsichere Services wie SMB1 sollten entfernt werden.
+Zu empfehlen JEA und JIT
+
+Active Directory Umgebung kann mit ATA effektiv überwacht werden.
+Virtuelle Festplatten mit Bitlocker verschlüsseln
+
+Security Compliance Toolkit
+
+Get-Comand -Module Defender
+
