@@ -40,3 +40,4 @@ Security Compliance Toolkit
 
 Get-Comand -Module Defender
 
+Windows Event Forwarding
