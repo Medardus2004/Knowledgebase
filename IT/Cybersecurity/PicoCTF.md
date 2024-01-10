@@ -1,3 +1,23 @@
+# Forensics
+
+### Analysiere das File mit 
+&> file <file>
+&> hexedit <file>
+&> exiftool <file>
+&> strings <file>
+
+
+
+### Remove badly censored pdf
+#!/bin/bash
+pdf=Financial_Report_for_ABC_Labs
+pdftotext ${pdf}.pdf
+grep -o "picoCTF{.*}" ${pdf}.txt
+rm ${pdf}.txt
+
+
+
+
 # Web Exploits
 We want to leak the encryption method somehow, so we open **BurpSuite** to monitor the requests made to the site.
 
