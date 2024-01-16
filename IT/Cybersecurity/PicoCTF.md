@@ -2,10 +2,16 @@
 
 ### Analysiere das File mit 
 &> file <file>
+
 &> hexedit <file>
+
+The magic string PK which is a telltale sign of a zip archive.
+
 &> exiftool <file>
+
 &> strings <file>
 
+&> readelf <file>
 
 
 ### Remove badly censored pdf
@@ -14,6 +20,15 @@ pdf=Financial_Report_for_ABC_Labs
 pdftotext ${pdf}.pdf
 grep -o "picoCTF{.*}" ${pdf}.txt
 rm ${pdf}.txt
+
+### Find out who owns IP
+$> whois <IP>
+
+### show metadata of image 
+$> identify -verbose <FILE>
+
+### Image Decoder
+https://stylesuxx.github.io/steganography/
 
 
 
