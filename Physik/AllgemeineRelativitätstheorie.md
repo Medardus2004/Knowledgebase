@@ -18,9 +18,30 @@ Die Einsteinschen Feldgleichungen beschreiben den Zusammenhang zwischen den Grav
 Die Gravitationskräfte werden durch die Christophelsymbole beschrieben, die proportional zur ersten Ableitung im metrischen Tensor sind.
 
 ### Gravitationsrotverschiebung
-### Geometrische Aspekte
+Wenn die hochenergetische Strahlung eines bestimmten kernübergangs von gleichartigen Kernen wieder absorbiert wird werden, spricht man von Resonanzfluoreszenz.
+Bei Rückstoßfreier Resonanzfluoreszenz, dem Mößbauer-Effekt, kommt es zu sehr scharfen Gamma-Linien.
+Vergleich einer Uhr, die auf der Erdoberfläche ruht mit der in einem Satalliten:
+Die Satellitenuhr geht 
 
+i) schneller, weil das Gravitationspotenzial am Ort des Satelliten schwächer ist
+
+ii) langsamer, weil die Geschwindigkeit des Satelliten gröer ist.
+
+### Geometrische Aspekte
+Der metrische Tensor bestimmt die Eigenschaften des Raums. Dazu gehört insbesondere die Krümmung.
+Die Gestalt des metrischen Tensors ist durch die Eigenschaften des Raums nicht eindeutig festgelegt. 
+Vielmehr kann sie durch die Wahl anderer Koordinaten im Raum verändert werden.
+
+Äußere Krümmung kann man sich mit einem Blatt Papier erklären, dass man rollt. Zwar kommt es zu einer Verbiegung, die Metrik bleibt aber gleich.
+
+Für eine Krümmung ist die Koordinatenabhängigkeit des metrischen Tensors notwendig aber nicht hinreichend:
+Raum gekrümmt ==> metrische Tensor ist koordinatenabhängig.
+
+Die durch die Bewegungsgleichungen eines Teilchens im Gravitationsfeld zurückgelegte Bahnen sind zugleich die geodätischen Linien in dem durch den metrischen Tensor definierten Riemannschen Raum.
 ## Mathematische Grundlagen
+
+### Tensoren im Riemannschen Raum
+Unter einer Mannigfaltigkeit versteht man in der Mathematik einen topologischen Raum, der lokal dem euklidischen Raum gleicht. Global muss die Mannigfaltigkeit jedoch nicht einem euklidischen Raum gleichen (nicht zu ihm homöomorph sein).
 
 ## Grundgesetze
 
