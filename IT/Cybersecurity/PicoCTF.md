@@ -13,6 +13,19 @@ The magic string PK which is a telltale sign of a zip archive.
 
 &> readelf <file>
 
+pngcheck verifies the integrity of PNG, JNG and MNG file
+
+### Analysiere filesystem mit
+&> fls suspicious.dd.sda1
+
+&> icat suspicious.dd.sda1 12
+
+&>  od - dump files in octal and other formats
+
+### Analysiere eine Disk
+&> mmls  -  Display  the  partition  layout of a volume syste
+
+&> mount image /tmp/foo -o offset 512* image location
 
 ### Remove badly censored pdf
 #!/bin/bash
@@ -30,7 +43,9 @@ $> identify -verbose <FILE>
 ### Image Decoder
 https://stylesuxx.github.io/steganography/
 
-
+# Kryptologie
+test in base 64 übersetzen 
+&> echo cGljb0NURntmMXNoeV9zMXR1NHRpMG5fc2VsYmF0X3liYm9iX2VsdHRpbH0= | base64 -d
 
 
 # Web Exploits
