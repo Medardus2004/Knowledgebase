@@ -43,6 +43,21 @@ Die durch die Bewegungsgleichungen eines Teilchens im Gravitationsfeld zurückge
 ### Tensoren im Riemannschen Raum
 Unter einer Mannigfaltigkeit versteht man in der Mathematik einen topologischen Raum, der lokal dem euklidischen Raum gleicht. Global muss die Mannigfaltigkeit jedoch nicht einem euklidischen Raum gleichen (nicht zu ihm homöomorph sein).
 
+### Kovariante Ableitung
+Im Riemannschen Raum ist die partielle Ableitung eines Tensorfelder im Allgemeinen kein Tensorfeld. Stattdessen führt man die kovariante Ableitung ein. Die kovariante Ableitung eines Tensorfeldes ist wieder ein Tensorfeld.
+
+Für diese Ableitung gilt:
+
+1. Die kovariante Ableitung ergibt wieder einen Tensor entsprechender Stufe im Riemannschen Raum
+
+2. Im Minkowski Raum oder im lokalen Inertialsystem reduziert sich die kovariante Ableitung auf die partielle Ableitung
+
+3. Es gelten die üblichen Rechenregeln für die Ableitung, insbesondere die Kettenregel.
+
+### Parallelverschiebung
+Der Zusatzterm der kovarianten Ableitung kann geometrisch als Parallelverschiebung interpretiert werden.
+
+
 ## Grundgesetze
 
 ## Statische Gravitationsfelder
