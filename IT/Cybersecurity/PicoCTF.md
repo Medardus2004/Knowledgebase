@@ -11,6 +11,10 @@ The magic string PK which is a telltale sign of a zip archive.
 
 &> strings <file>
 
+ Binwalk is a tool for searching a given binary image for embedded files and executable code
+
+ &> 
+
 &> readelf <file>
 
 pngcheck verifies the integrity of PNG, JNG and MNG file
