@@ -57,8 +57,26 @@ Für diese Ableitung gilt:
 ### Parallelverschiebung
 Der Zusatzterm der kovarianten Ableitung kann geometrisch als Parallelverschiebung interpretiert werden.
 
+### Krümmungstensor
+Der Krümmungstensor wird zur Aufstellung der Feldgleichungen der Allgemeinen Relativitätstheorie benötigt.
+Aus dem metrischen Tensor kann man den Krümmungstensor berechnen. Genau dann, wenn dieser Tensor verschwindet , ist der Raum eben.
+Man kann sagen, dass der Kürmmungstensor der einzige Tensor ist, der aus dem metrischen Tensor und seinen ersten und zweiten Ableitungen gebildet werden kann und der linear in der ersten und zweiten Ableitung ist.
 
-## Grundgesetze
+## Grundgesetze der ART
+### Kovarianzprinzip
+Insgesamt erhalten wir aus der Isotropieannahme eine Vorschrift zur Aufstellung gültiger Gesetze: Die gesuchte Gleichung muss folgende Bedingung erfüllen:
+- Kovarianz unter allgemeinen Koordinatentransformationen. Dies bedeutet, dass das Gesetz die Form einer Riemann-Tensorgleichung haben muss
+- Gültigkeit im Lokalen Inertialsystem.
+
+Das Wegelement ist sowohl ein Lorentz, wie auch ein Riemann-Skalar
+
+### Gesetze mit Gravitation
+Wenn wir von einem direkten Drehmoment auf den Spin absehen, können wir folgende Fälle unterscheiden:
+1. Teilchen im Gravitationsfeld
+2. Teilchen in einem anderen Kraftfeld (Thomas-Präzession)
+3. Teilchen im Kraftfeld mit einem anderen Kraftfeld (Fermi-Transport)
+
+
 
 ## Statische Gravitationsfelder
 
