@@ -102,8 +102,10 @@ Da die Feldgleichungen nichtlinear sind, gibt es kein Standardverfahren zur Lös
 3. Post-Newtonsche Näherungen der Feld- und der Bewegungsgleichungen für schwache Felder und für langsam bewegte Teilchen
 
 ## Statische Gravitationsfelder
-### Isotropische statische Metrik
 
+Wir befassen uns hier mit statischen Gravitationsfeldern.
+### Isotropische statische Metrik
+Die Reobertson Entwicklung hat den Sinn, die Lösung der Bewegungsgleichungen im Gravitationsfeld ergibt Vorhersagen für physikalische Effekte, die von dimenstionslosen Parametern abhängen.
 ## Gravitationswellen
 
 ## Statische Sternmodelle
