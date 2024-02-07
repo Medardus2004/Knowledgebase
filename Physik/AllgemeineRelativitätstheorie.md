@@ -90,11 +90,19 @@ Man kann in die so gewonnene Gleichung noch einen Zusatzterm einfügen, der line
 ### Struktur der Feldgleichungen
 Für schwache felder wir der Energie-Impuls-Tensor des Gravitationsfelds aufgestellt. In diesem Grenzfall können die Feldgleichungen linearisiert werden und ihre allgemeine Lösung kann angegeben werden.
 
-Da der Riemann-Tensor symmetrische ist, hat er nur 10 unabhängige Komponenten, d.h. die Feldgleichungen sind 10 algebraisch unabhängige Gleichungen. 
+Da der Riemann-Tensor symmetrisch ist, hat er nur 10 unabhängige Komponenten, d.h. die Feldgleichungen sind 10 algebraisch unabhängige Gleichungen. 
 
 Aufgrund einer Bedingung des Riemann-Tensors sind nur 6 der Einsteinschen Feldgleichungen unabhängig. Daher können die Feldgleichungen die 10 Funktionen nicht vollständig festlegen. Diese Freiheit kann genutzt werden, um die Lösung eines Problems durch die Wahl geeigneter Koordinaten zu vereinfachen.
 
+Auch in der Elektrodynamik sind die Potenziale nicht eindeutig durch die Feldgleichungen festgelegt. Die Maxwellgleichungen stellen 4 algebraisch unabhängige Gleichungen für die 4 unbekannten Felder auf. Allerdings werden diese durch eine Bedingung auf 3 funktional unabhängige Gleichungen reduziert
+
+Da die Feldgleichungen nichtlinear sind, gibt es kein Standardverfahren zur Lösung der Gleichungen bei gegebenen Quellen. Es gibt jedoch:
+1. Exakte Lösungen unter vereinfachenden Annahmen
+2. Lösungen der linearisierten Feldgleichungen für schwache Felder
+3. Post-Newtonsche Näherungen der Feld- und der Bewegungsgleichungen für schwache Felder und für langsam bewegte Teilchen
+
 ## Statische Gravitationsfelder
+### Isotropische statische Metrik
 
 ## Gravitationswellen
 
