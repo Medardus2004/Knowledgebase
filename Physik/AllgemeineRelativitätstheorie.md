@@ -76,7 +76,23 @@ Wenn wir von einem direkten Drehmoment auf den Spin absehen, können wir folgend
 2. Teilchen in einem anderen Kraftfeld (Thomas-Präzession)
 3. Teilchen im Kraftfeld mit einem anderen Kraftfeld (Fermi-Transport)
 
+### Einsteinsche Feldgleichungen
+Die Einsteinschen Feldgleichungen können nicht mit Hilfe des Kovarianzprinzips abgeleitet werden, denn im lokalen Interialsystem gibt es keine Feldgleichungen, deren kovariante Ableitung zu finden wäre.
+Die Einsteinschen Feldgleichungen können aber weitgehend daduch festgelegt werden, dass sie kovariant und möglichst einfach sind und das sie den Newtonschen Grenzfall enthalten.
 
+Skizze: wir verallgemeinern vom Newtonschen Grenzfall auf die naheliegende relativistische Verallgemeinerung. Eine Analogie zur Elektrodynamik ist aber nicht gültig, da jede Energieform einen Beitrag zur Masse liefert und daher eine Quelle des Gravitationsfelds darstellt. Wir setzen den EnergieImpuls-Tensor vorerst mit einem unbekannten Riemann-Tensor proportional. Dieser muss folgende Eigenschaften erfüllen:
+1. Er wird aus der ersten und zweiten Ableitung des metrischen Tensors gebildet. Dabei ist der Riemann-Tensor linear in der zweiten und quadratisch in der ersten Ableitung
+2. Er hat die gleichen Symmetrie-Eigenschaften wie der Energie-Impuls-Tensor
+3. Für ein schwaches stationäres Feld muss sich der Newtonsche Grenzfall ergeben
+
+Man kann in die so gewonnene Gleichung noch einen Zusatzterm einfügen, der linear zum metrischen Tensor ist. Aktuelle Weltmodelle favorisieren diese kosmologische Konstante.
+
+### Struktur der Feldgleichungen
+Für schwache felder wir der Energie-Impuls-Tensor des Gravitationsfelds aufgestellt. In diesem Grenzfall können die Feldgleichungen linearisiert werden und ihre allgemeine Lösung kann angegeben werden.
+
+Da der Riemann-Tensor symmetrische ist, hat er nur 10 unabhängige Komponenten, d.h. die Feldgleichungen sind 10 algebraisch unabhängige Gleichungen. 
+
+Aufgrund einer Bedingung des Riemann-Tensors sind nur 6 der Einsteinschen Feldgleichungen unabhängig. Daher können die Feldgleichungen die 10 Funktionen nicht vollständig festlegen. Diese Freiheit kann genutzt werden, um die Lösung eines Problems durch die Wahl geeigneter Koordinaten zu vereinfachen.
 
 ## Statische Gravitationsfelder
 
