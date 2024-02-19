@@ -47,6 +47,10 @@ $> identify -verbose <FILE>
 ### Image Decoder
 https://stylesuxx.github.io/steganography/
 
+## Wireshark
+### hashcat
+hcxpcapngtool -o handshakes
+
 # Kryptologie
 test in base 64 übersetzen 
 &> echo cGljb0NURntmMXNoeV9zMXR1NHRpMG5fc2VsYmF0X3liYm9iX2VsdHRpbH0= | base64 -d
