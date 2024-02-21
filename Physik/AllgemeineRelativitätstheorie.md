@@ -106,6 +106,17 @@ Da die Feldgleichungen nichtlinear sind, gibt es kein Standardverfahren zur Lös
 Wir befassen uns hier mit statischen Gravitationsfeldern.
 ### Isotropische statische Metrik
 Die Reobertson Entwicklung hat den Sinn, die Lösung der Bewegungsgleichungen im Gravitationsfeld ergibt Vorhersagen für physikalische Effekte, die von dimenstionslosen Parametern abhängen.
+
+### Schwarzschildmetrik
+Schwarzschildradius der Sonne ist 3 km.
+In der Umgebund einer gravitierenden Masse ist die Raumkrümmung 0 bezogen auf den vierdimensionalen Raum, aber ungleich 0 bezogen auf den dreidimensionalen Unterraum. Der Ricci Tensor ist nur im Bereich der Quellen ungleich 0.
+
+### Bewegung im Zentralfeld
+Die auftretenden Integrale bei der Bewegung im Zentralfeld sind im allgemeinen nicht elementar lösbar.
+
+### Lichtablenkung
+Newton würde nur eine halb so große Lichtablenkung wie Einstein vorhersagen.
+
 ## Gravitationswellen
 
 ## Statische Sternmodelle
@@ -113,3 +124,11 @@ Die Reobertson Entwicklung hat den Sinn, die Lösung der Bewegungsgleichungen im
 ## Dynamische Sternmodelle
 
 ## Kosmologie
+
+
+
+## Notizen
+### Invarianz
+Das gleiche Objekt kann in verschiendenen Arten beschrieben werden, von verschiedenen Sichtpunkten
+## Kovarianz
+Wenn eine Sache wächst, schrumpft eine andere. Basisvektoren sind kovariant, und Komponenten kontravariant.
