@@ -132,6 +132,22 @@ Dies ist die Präzession eines Kreisels, der im Gravitationsfeld frei fällt. Im
 Das System Erde Mond kann als Gyroskop aufgefasst werden, das die Sonne umkreist. Sie sagt voraus, dass die Mondbahn präzediert und zwar mit 2 Bogensekunden pro Jahrhundert.
 ### Thierring Lense Effekt
 Dies ist die Präzession eines Kreisels im Gravitationsfeld aufgrund der Rotation der Erde.
+Die Rotation einer Massenverteilung führt zu einem gravitomagnetischen Feld.
+
+
+### Tests der ART
+Folgende Aussagen und Effekte bieten sich zur experimentellen Überprüfung der ART an:
+- Äquivalenzprinzip
+- Gravitationsrotverschiebung
+- Lichtablenkung
+- Periheldrehung
+- radarechoverzögerung
+- Präzession von Kreiseln
+- Gravitationswellen
+
+#### Nordtvedt-Effekt
+Die genaue Analyse der Mondbahndaten führt zu der Aussage, dass die relativen Beschleunigungen von Erde und Mond mit einer Genauigkeit von 10^-3 übereinstimmen.
+Im Rahmen dieser Genauigkeit kann man also sagen: Die Gravitationsenergie trägt in gleicher Weise wie alle anderen Wechselwirkungen zur Masse bei.
 
 ## Gravitationswellen
 
