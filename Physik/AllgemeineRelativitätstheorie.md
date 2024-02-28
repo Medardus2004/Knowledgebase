@@ -117,6 +117,22 @@ Die auftretenden Integrale bei der Bewegung im Zentralfeld sind im allgemeinen n
 ### Lichtablenkung
 Newton würde nur eine halb so große Lichtablenkung wie Einstein vorhersagen.
 
+### Periheldrehung
+Die durch relativistische Effekte verursachte Periheldrehung des Merkur beträgt 0,105 Bogensekunden pro Umlauf. Bei der Erde ist es nur 5 Bogensekunden pro Jahrhundert.
+Es kann so die Nichtlinearität von Einsteins Feldgleichungen getestet werden.
+
+### Radarechoverzögerung
+Ein von der Erde ausgesandtes Radarsignal kann von einem anderen Planeten oder einer Raumsonde reflektiert werden und bei uns wieder empfangen werden. 
+Passiert der Radarstrahl dabei das Gravitationsfeld der Sonne, so trifft das Echo bei uns zeitlich verzögert ein.
+
+### Geodätische Präzession
+Dies ist die Präzession eines Kreisels, der im Gravitationsfeld frei fällt. Im Gravitationsfeld der erde beträgt sie 6,6 Bodensekunden pro Jahr. Bereits mit der Netwonschen Theorie erhält man eine Präzession die 10^7 mal größer ist.
+
+#### De Sitter-Präzession des Mondes
+Das System Erde Mond kann als Gyroskop aufgefasst werden, das die Sonne umkreist. Sie sagt voraus, dass die Mondbahn präzediert und zwar mit 2 Bogensekunden pro Jahrhundert.
+### Thierring Lense Effekt
+Dies ist die Präzession eines Kreisels im Gravitationsfeld aufgrund der Rotation der Erde.
+
 ## Gravitationswellen
 
 ## Statische Sternmodelle
