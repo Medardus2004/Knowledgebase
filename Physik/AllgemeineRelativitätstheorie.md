@@ -152,7 +152,7 @@ Im Rahmen dieser Genauigkeit kann man also sagen: Die Gravitationsenergie trägt
 ## Gravitationswellen
 
 ### Ebene Wellen
-Photonen haben einen Spin von 2.
+Gravitonen haben einen Spin von 2.
 Die ART hat im allgemeinen 6 unabhängige Komponenten. Im freien Fall 2
 Das Transformationsverhalten einer ebenen Welle bei Drehung um den Wellenvektor bezeichnet man als Helizität.
 
