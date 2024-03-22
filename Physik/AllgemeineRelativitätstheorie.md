@@ -159,6 +159,23 @@ Das Transformationsverhalten einer ebenen Welle bei Drehung um den Wellenvektor 
 ### Teilchen im Feld der Welle
 Gravitationswellen regen Quadropolschwingungen an. Die Umkehrung gilt auch: Massenverteilungen mit oszillierenden Quadropolmoment (wie ein Doppelsternsystem) senden Gravitationswellen aus.
 
+### Quadrupolstrahlung
+Für eine Massenverteilung gibt es im Schwerpunktsystem nur ein Quadrupolmoment, kein Dipolmoment. 
+Die Berechnung der Gravitationsstrahlung erfolgt analog zur Elektrodynamik. Sie ist aber insgesamt aufwändiger, weil die Quellterme Tensoren zweiter Stufe sind. 
+Die Berechnung glieder sich in 3 Stufen:
+1.) Asymptotische Felder aus gegebenen Quelltermen
+2.) Reduktion auf die räumliche Komponenten der Quellterme
+3.) Langwellennäherung
+
+### Quellen der Gravitationsstrahlung
+Auf 10^44 ausgesandte Photonen kommt nur ein Graviton. Die einzige plausible Erklärung für die Abnahme der Bahnperiode von dem Doppelsternsystem PSR 1913+16 ist die Gravitationsstrahlung. Der Pulsar NPO 0532 im Zentrum des Krebsnebels ist ein Überbleibsel der berühmten Supernova-Explosion von 1054.
+
+### Nachweis von Gravitationsstrahlung
+Es gibt zwei Detektortypen für den Nachweis von Gravitationsstrahlung:
+
+1. Interferometrische Detektoren: Freie Teilchen erfahren im Feld einer Gravitationswelle Abstandsänderungen, die proportional zur Amplitude der Welle sind. Es gibt die Möglichkeit, diese Längenänderung mit einem Laser-Interferometer zu messen. Dies wurde 2015 durch Advanced Ligo nachgewiesen.
+2. Resonanter Detektor: Die Kräfte einer Gravitationswelle bewirken oszillierende, quadrupolförmige Auslenkungen. In einem Festkörper sollte eine Gravitationswelle daher Quadrupolschwingungen anregen. 
+
 ## Statische Sternmodelle
 
 ## Dynamische Sternmodelle
