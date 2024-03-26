@@ -178,6 +178,21 @@ Es gibt zwei Detektortypen für den Nachweis von Gravitationsstrahlung:
 
 ## Statische Sternmodelle
 
+### Sterngleichgewicht
+Ein Stern mit Sonnenmasse
+- unter 0,1 kommt nicht zum brennen
+- 0,1 erwärmen sich aufgrund der Kontraktion und leuchten schwach (Braune Zwerge, z.B.: Jupiter)
+- 1 Durchlaufen einen oder mehrere Fusionszyklen und Enden als Weiße Zwerge
+- deutlich größer 1 erleiden einen Gravitationskollaps
+- größer 10 erwartet man einen zurückbleibenden Neutronenstern
+- größer 40 erwartet man ein schwarzes Loch
+
+### Innere Schwarzschildmetrik
+Die Oppenheimer-Volkoff-Gleichung ist die relativistische Gleichung für den Gravitationsdruck.
+
+### Relativisitische Sterne
+Unter relativistischen Sternen verstehen wir Sterne, deren Gravitationsfeld so stark ist, dass die relativistischen Effekte wichtig sind.
+
 ## Dynamische Sternmodelle
 
 ## Kosmologie
