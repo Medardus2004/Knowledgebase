@@ -203,6 +203,11 @@ Das ideale Fermigas aus Elektronen führt zu einem Modell des Sterngleichgewicht
 
 
 ## Dynamische Sternmodelle
+### Isotrope zeitabhängige Metrik und Birkhoff-Theorem
+Birkhoff-Theorem: Ein sphärisches Gravitationsfeld im leeren Raum ist statisch. 
+
+Ein Inertialsystem ist durch ein Bezugssystem gegeben, von dem aus die Massenverteilung des Universums im Großen und im Mittel isotrop erscheint.
+
 
 ## Kosmologie
 
