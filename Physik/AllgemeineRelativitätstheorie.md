@@ -193,6 +193,15 @@ Die Oppenheimer-Volkoff-Gleichung ist die relativistische Gleichung für den Gra
 ### Relativisitische Sterne
 Unter relativistischen Sternen verstehen wir Sterne, deren Gravitationsfeld so stark ist, dass die relativistischen Effekte wichtig sind.
 
+### Newtonsche Sterne
+Newtonsche Sterne sind Sterne, deren Gravitationsfeld so schwach ist, dass sie durch den Newtonschen Grenzfall beschrieben werden können.
+
+### Weißer Zwerg
+Das ideale Fermigas aus Elektronen führt zu einem Modell des Sterngleichgewichts "Weißer Zwerg". Wenn ein weißer Zwerg die Chandrasekhar Grenzmasse überschreitet, kommt es zur Supernova.
+
+### Neutronenstern. Pulsar
+
+
 ## Dynamische Sternmodelle
 
 ## Kosmologie
