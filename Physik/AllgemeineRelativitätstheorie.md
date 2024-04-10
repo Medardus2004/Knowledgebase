@@ -208,7 +208,14 @@ Birkhoff-Theorem: Ein sphärisches Gravitationsfeld im leeren Raum ist statisch.
 
 Ein Inertialsystem ist durch ein Bezugssystem gegeben, von dem aus die Massenverteilung des Universums im Großen und im Mittel isotrop erscheint.
 
+### Schwarzschildradius
 
+Die Fläche r = Schwarzschildradius ist physikalisch ausgezeichnet. Für den außenstehenden Beobachter nähert sich ein frei fallendes Teilchen asymptotisch dem Schwarzschildradius. 
+Ein Beobachter kann keine Information aus dem Bereich kleiner Schwarzschildradius herausziehen.
+
+Für den mitbewegten Beobachter zeigt die Stelle des Schwarzschildradius keine Besonderheit
+
+Die Koordinaten der Schwarzschild-Metrik sind nicht geeignet, Ereignisse im Bereich kleiner dem Schwarzschildradius zu benennen.
 ## Kosmologie
 
 ## Notizen
