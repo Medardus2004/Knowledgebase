@@ -216,6 +216,12 @@ Ein Beobachter kann keine Information aus dem Bereich kleiner Schwarzschildradiu
 Für den mitbewegten Beobachter zeigt die Stelle des Schwarzschildradius keine Besonderheit
 
 Die Koordinaten der Schwarzschild-Metrik sind nicht geeignet, Ereignisse im Bereich kleiner dem Schwarzschildradius zu benennen.
+
+### Isotrope zeitabhängige Metrik in Gaußkoordinaten
+Für den isotropen und zeitabhängigen Fall führen wir sogenannte zeitabhängige Gaußkoordinaten ein, mit denen auch Ereignisse innerhalb des Schwarzschildradius bezeichnet werden können.
+Deshalb sind die Gaußkoordinaten geeignet, den zentralen Gravitationskollaps eines Sterns zu beschreiben.
+
+
 ## Kosmologie
 
 ## Notizen
