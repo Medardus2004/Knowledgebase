@@ -221,6 +221,9 @@ Die Koordinaten der Schwarzschild-Metrik sind nicht geeignet, Ereignisse im Bere
 Für den isotropen und zeitabhängigen Fall führen wir sogenannte zeitabhängige Gaußkoordinaten ein, mit denen auch Ereignisse innerhalb des Schwarzschildradius bezeichnet werden können.
 Deshalb sind die Gaußkoordinaten geeignet, den zentralen Gravitationskollaps eines Sterns zu beschreiben.
 
+### Schwarzes Loch
+Für schwarze Löcher benötigt man eine Dichte größer als 2x10¹9 kg/m³
+
 
 ## Kosmologie
 
