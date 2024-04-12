@@ -222,7 +222,7 @@ Für den isotropen und zeitabhängigen Fall führen wir sogenannte zeitabhängig
 Deshalb sind die Gaußkoordinaten geeignet, den zentralen Gravitationskollaps eines Sterns zu beschreiben.
 
 ### Schwarzes Loch
-Für schwarze Löcher benötigt man eine Dichte größer als 2x10¹9 kg/m³
+Für schwarze Löcher benötigt man eine Dichte größer als 2x10¹9 kg/m³. Sie entstehen ab einer Masse von 40 Sonnenmassen.
 
 
 ## Kosmologie
