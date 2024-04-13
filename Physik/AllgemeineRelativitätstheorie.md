@@ -224,8 +224,11 @@ Deshalb sind die Gaußkoordinaten geeignet, den zentralen Gravitationskollaps ei
 ### Schwarzes Loch
 Für schwarze Löcher benötigt man eine Dichte größer als 2x10¹9 kg/m³. Sie entstehen ab einer Masse von 40 Sonnenmassen.
 
-
 ## Kosmologie
+
+### Kosmologisches Prinzip und Robertson-Walker-Metrik
+Die Robertson-Walker-Metrik stellt ein einfaches Modell des Kosmos dar. Sie beruht auf der Annahme, dass die Massenverteilung im Universum im Mittel homogen und isotrop ist.
+**Kosmologisches Prinzip:** Im Universum sind alle Positionen und Richtungen gleichwertig.
 
 ## Notizen
 ### Invarianz
