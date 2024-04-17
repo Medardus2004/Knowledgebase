@@ -233,5 +233,22 @@ Die Robertson-Walker-Metrik stellt ein einfaches Modell des Kosmos dar. Sie beru
 ## Notizen
 ### Invarianz
 Das gleiche Objekt kann in verschiendenen Arten beschrieben werden, von verschiedenen Sichtpunkten
-## Kovarianz
+### Kovarianz
 Wenn eine Sache wächst, schrumpft eine andere. Basisvektoren sind kovariant, und Komponenten kontravariant.
+
+**Christophel Symbole** beschreiben, wie sich der Raum für verschiedene Dimensionen ändert
+
+Der **Riemannsche Krümmungstensor** beschreibt, wie der Raum gekrümmt ist und hat 256 Komponenten in der 4-dimensionalen Raumzeit.
+
+Der **Ricci-Tensor** ist ein "vereinfachter" Krümmungstensor. Man ist nur an einem Teil der Komponenten interessiert.
+Man summiert alle Komponenten des Krümungstensor, in denen die 2. und 4. Komponte die gleichen sind, wie beim Ricci-Tensor, aber nur, wenn der 1. und 3. Index gleich ist
+Der Ricci Tensor misst, wie sich das Volumen ändert
+Das **Ricci Skalar** ist die durchschnittliche Krümmung in alle Richtungen
+
+### Wie kommt man auf die Krümmung im Raum?
+Zuerst bestimmt man das Wegelement. 
+Daraus folgt die Metrik. 
+Aus der Metrik lassen sich die Christophel-Symbole bestimmen. 
+Aus diesen folgt der Krümmungstensor, der zur Bestimmung des Krümmungsskalars verwendet werden kann.
+
+Der Energietensor wird in der Einsteinschen Formel als gegeben vorausgesetzt (für einen Satellit ist er über 0)
