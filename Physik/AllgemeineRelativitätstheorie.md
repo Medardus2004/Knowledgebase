@@ -229,6 +229,15 @@ Für schwarze Löcher benötigt man eine Dichte größer als 2x10¹9 kg/m³. Sie
 ### Kosmologisches Prinzip und Robertson-Walker-Metrik
 Die Robertson-Walker-Metrik stellt ein einfaches Modell des Kosmos dar. Sie beruht auf der Annahme, dass die Massenverteilung im Universum im Mittel homogen und isotrop ist.
 **Kosmologisches Prinzip:** Im Universum sind alle Positionen und Richtungen gleichwertig.
+Eine direkte Messung der Krümmung des dreidimensionalen Unterraums war bisher nicht möglich.
+
+### Kosmische Entfernungsleiter
+Im Hertzsprung-Russel-Diagramm wird die absolute Helligkeit über dem Frequenzmaximum aufgetragen. Das Frequenzmaximum ist durch die Oberflächentemperatur bestimmt.
+Mit Hilfe der Delta-Cepheiden können auch Galaxien in der Lokalen Gruppe und dem großen Virgio-Sternhaufen vermessen werden.
+Mit Hilfe von Standardkerzen (Supernovae) lassen sich Entfernungen bis zum Welthorizont vermessen.
+
+### Weltzustand
+Vorraussetzung für die experimentelle Bestimmung der kosmologischen Parameterwerte ist, dass unser Kosmos tatsächlich im Rahmen von Friedmannmodellen beschrieben werden kann. Dies ist eine sehr starke Annahme.
 
 ## Notizen
 ### Invarianz
