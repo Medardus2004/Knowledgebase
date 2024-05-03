@@ -261,3 +261,9 @@ Aus der Metrik lassen sich die Christophel-Symbole bestimmen.
 Aus diesen folgt der Krümmungstensor, der zur Bestimmung des Krümmungsskalars verwendet werden kann.
 
 Der Energietensor wird in der Einsteinschen Formel als gegeben vorausgesetzt (für einen Satellit ist er über 0)
+
+### Tensor
+A tensor is an object that is invariant under a change of coordinates and has components that change in a special predictable way under a change of coordinates.
+Vectors are invariant. Vector coordinates are not invariant.
+A tensor is a collection of vectors and covectors combined together with a tensor product.
+Vector-Components are contravariant.
