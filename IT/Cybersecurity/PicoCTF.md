@@ -175,6 +175,30 @@ Continuing at 0x0x08048451.
 
 hello venus
 
+
+
+
+#### Sleuthkit
+Sleuthkit is a collection of command line tools to assist in investigating disk images.
+We can determine the layout of the partition table with mmls. This will provide us with the offset address for each partition on the image.
+
+$> mmls disk.flag.img
+
+
+we have the partition information, we can determine what kind of file system is used on the image. To do this we use 
+
+$> fsstat -o 2048 disk.flag.img.
+
+Next list all in the partition
+$> fls -i raw -f ext4 -o 2048 -r disk.flag.img
+
+
+We can use icat to print the contents of these files to the terminal. NOTE: the digits at the in end of the command are the inode numbers associated with the files.
+
+$> icat -i raw -f ext4 -o 360448 disk.flag.img 2348
+
+
+
 #### pwntools intro
 
 Pwntools is a python ctf library designed for rapid exploit development. It essentially help us write exploits quickly, and has a lot of useful functionality behind it.
