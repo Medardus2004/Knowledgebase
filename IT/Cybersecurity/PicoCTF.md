@@ -26,10 +26,27 @@ pngcheck verifies the integrity of PNG, JNG and MNG file
 
 &>  od - dump files in octal and other formats
 
-### Analysiere eine Disk
+### Analysiere Image file
+&> file xxx.img
+
+erste Infos über die Disk
+
+&> fdisk -lu xxx.img
+
+zeige Partitionen
+
 &> mmls  -  Display  the  partition  layout of a volume syste
 
+mmls is used to display the layout of partitions within a disk image or physical disk.
+
+&> fls -o <OFFSET of PARTITION> xxx.img <inode-number>
+untersuche filesystem
+&> icat -o <OFFSET of PARTITION> disk.flag.img <inode-number>
+
+icat -o 0001140736  disk.flag.img 8 |xxd |grep ".txt" -A3
+
 &> mount image /tmp/foo -o offset 512* image location
+mounte partition
 
 ### Remove badly censored pdf
 #!/bin/bash
