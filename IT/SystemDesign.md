@@ -15,3 +15,10 @@ ensure reliable database transaction.
 - **Caching**: Store frequently accessed data in a faster storage layer
 - **Replication:** Create replicas of your primary database
 - **Sharding:** Load resources that the page will need before they are needed
+
+## System Design Trafeoffs
+- **SQL** vs. **NoSQL**: consistency vs. scalability
+- **Normalization** vs. **Denormalization**: correctness and simplicity vs. performance and scale
+- **Consitency** vs. **Availability**
+- **Strong** vs. **Eventual Consistency**: updates are immediately refelcted vs. updates are delayed
+- **Batch** vs. **Stream Processing**: accumulated data in scheduled intervals vs. handling data in real time
