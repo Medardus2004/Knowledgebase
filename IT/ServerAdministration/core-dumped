@@ -1,9 +1,0 @@
-It Rust officially integrated in the Linux Kernel?-- yes
-What is Bevy?--A refreshingly simple data-driven game engine built in Rust. 
-What is sniffnet?--Sniffnet is a network monitoring tool designed to help users easily keep track of their Internet traffic.
-Was ist Tauri?--Tauri ist ein auf Rust basierendes Open-Source-Framework für die Entwicklung nativer Anwendungen für eine Vielzahl von Betriebssystemen. 
-Which principle follows the stack?-- LIFO
-What means core dumped?-- Error message from OS, if a program tries to access memory used by another program
-What means external fregmentation?-- if not enough cohrent memory space for a program is available
-
-
