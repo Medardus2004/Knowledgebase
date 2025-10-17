@@ -74,7 +74,8 @@ test in base 64 übersetzen
 
 
 # Web Exploits
-We want to leak the encryption method somehow, so we open **BurpSuite** to monitor the requests made to the site.
+1) **Crack the Gate 1**: developer backdoor via client-set header (X-Dev-Access: yes) must not be used in production
+2) **Cookie Monster Secret recipe**: if there is == at the end of gibberish, it is probably base64
 
 
 
