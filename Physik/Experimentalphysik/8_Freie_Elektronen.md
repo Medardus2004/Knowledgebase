@@ -30,3 +30,6 @@ ein Sekundärelektron auslösen zu können.
 Auch die Ablösearbeit W eines Elektrons vom Atom oder Molekül, die Ionisierungsenergie, liegt in der Größenordnung 10 eV
 
 ## Bewegung freier Ladungsträger
+Ferdinand Braun benutzte um 1900 Elektronenstrahlen als ,,Zeiger“ für schnell veränderliche elektrische Spannungen, die diese Elektronen
+ablenkten. Die braunsche Röhre des Kathoden- oder **Elektronenstrahloszilloskops** ist zu einem der wichtigsten Messgeräte entwickelt
+worden.
