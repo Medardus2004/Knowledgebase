@@ -33,3 +33,34 @@ Auch die Ablösearbeit W eines Elektrons vom Atom oder Molekül, die Ionisierung
 Ferdinand Braun benutzte um 1900 Elektronenstrahlen als ,,Zeiger“ für schnell veränderliche elektrische Spannungen, die diese Elektronen
 ablenkten. Die braunsche Röhre des Kathoden- oder **Elektronenstrahloszilloskops** ist zu einem der wichtigsten Messgeräte entwickelt
 worden.
+
+## Plasma
+Bei sehr hohem Druck kommt man nach Plasma noch zu weiteren Aggregatzuständen, in denen die Materie ganz neue Eigenschaften entwickelt: 
+Zum Fermi-Gas, zum relativistischen Fermi-Gas, zum Neutronengas
+
+Rings um jede positive Ladung überwiegen die negativen als **Debye-Hückel-Wolke** und umgekehrt.
+
+Ein Plasma besteht aus mindestens drei Teilsystemen: Dem **Elektronengas**, dem **Ionengas**, dem **Neutralgas**.
+Die Energie aus der äußeren Spannungsquelle teilt sich zunächst den Elektronen mit und geht erst allmählich auf die Ionen und noch viel unvollständiger auf das Neutralgas über.
+
+Die freie Weglänge l = 1/(n A) hängt vom Stoßmechanismus ab.
+
+Ein Fusionsplasma von 10 7 K, das heute als ,,zu kühl“ für die Fusion gilt, hat die elektrische Leitfähigkeit von metallischem Kupfer, 
+aber die 30 000fache Wärmeleitfähigkeit; bei 10^8 K leitet es 30mal besser elektrisch und 10^7 mal besser die Wärme als Kupfer.
+
+Plasmafrequenz nennt man acuh Langmuir-Frequenz. Sie beträgt etwa mehrere 100 MHz, hat allerdings ein hohes Rauschen.
+
+Der klassische Funkverkehr (Lang-, Mittel- und Kurzwellen) wäre ohne die Ionosphäre überhaupt nicht möglich. 
+Eine Radiowelle der Frequenz f kommt in der Höhe, wo die Plasmafrequenz ähnliche Werte hat, in Resonanz mit den Ionosphärenelektronen. 
+Die Folge ist ein eigenartiges Dispersions- und Absorptionsverhalten. 
+Die Radiowelle wird in einem großen Bereich des Einfallswinkels totalreflektiert – genau in der Resonanz, 
+also bei f = f p sogar bei senkrechtem Einfall, was die ,,Echoauslotung“ der Ionosphäre ermöglicht.
+
+Das Plasma und sein Magnetfeld sind aneinander gefesselt.
+Die Abklingzeit des B-Feldes entspricht der **magnetohydrodynamischen Relaxationszeit.**
+
+Es würde eine Zeit t ≈ R/v dauern, bis das Plasma aus seinem Feld herausgequollen ist. 
+Wenn t viel kürzer ist als die Relaxationszeit τ, schleppt das Plasma sein Feld mit, 
+das Feld ist im Plasma ,,eingefroren“. Das ist der Fall unter der **Alfvén-Bedingung**
+
+Schall durch gaskinetischer Druck in kondensierter Materie verhält sich wie Alfvén-Welle durch magnetischen Druck in einem Plasma 
