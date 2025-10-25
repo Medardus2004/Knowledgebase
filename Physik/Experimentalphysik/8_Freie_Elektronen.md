@@ -34,6 +34,12 @@ Ferdinand Braun benutzte um 1900 Elektronenstrahlen als ,,Zeiger“ für schnell
 ablenkten. Die braunsche Röhre des Kathoden- oder **Elektronenstrahloszilloskops** ist zu einem der wichtigsten Messgeräte entwickelt
 worden.
 
+
+## Gasentladungen
+Kosmische Strahlung und die Radioaktivität von Boden und Luft stellen in Bodennähe eine Erzeugungsrate von α ≈ 10^6 m −3 s −1 dar. 
+Der Rekombinationskoeffizient ist β ≈ 10^−12 m 3 s −1. 
+Luft enthält also mindestens n ∞ ≈ 10^9 Ionen/m 3 , die etwa τ ≈ 10^3 s leben.
+
 ## Plasma
 Bei sehr hohem Druck kommt man nach Plasma noch zu weiteren Aggregatzuständen, in denen die Materie ganz neue Eigenschaften entwickelt: 
 Zum Fermi-Gas, zum relativistischen Fermi-Gas, zum Neutronengas
